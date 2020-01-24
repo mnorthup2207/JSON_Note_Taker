@@ -5,11 +5,10 @@
 
 - Routing is used to handle responses a client makes on front end and passes a request to the server side end, triggering a specific endpoint or URL. 
 
-![image](public/assets/img/.png)
+![image](public/assets/img/landing.png)
 
-![image](public/assets/img/.png)
+![image](public/assets/img/notes.png)
  
-
 
 ## Intended Use
 - This application is created with the student, busy career individual or simply the compulsive note taker. Much more robust than just a JavaScript Note Taker or Todo List, this application uses a server side API to get, post, or delete content across all browsers and computers. 
