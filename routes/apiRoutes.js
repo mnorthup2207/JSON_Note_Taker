@@ -6,6 +6,12 @@ module.exports = function (app) {
         res.json(noteData);
     });
 
+    app.get("/api/notes/:note", function (req, res) {
+        var chosen = req.params.note;
+        noteData(chosen)
+        res.json(true);
+    });
+
     app.post("/api/notes", function (req, res) {
         noteData.push(req.body);
         res.json(true);
@@ -15,8 +21,9 @@ module.exports = function (app) {
         var chosen = req.params.note;
         noteData.pop(chosen);
         res.json(true)
-
     })
+
+
 
 
 };
